@@ -1,0 +1,38 @@
+{
+  "name": "task-manager",
+  "version": "0.1.0",
+  "description": "A Jira-style task manager.",
+  "main": "gulpfile.babel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JacobPernell/task-manager.git"
+  },
+  "author": "Mike Skalandunas <mskalandunas@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JacobPernell/task-manager/issues"
+  },
+  "homepage": "https://github.com/JacobPernell/task-manager#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.5"
+  },
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-preset-latest": "^6.16.0",
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-sass": "^3.0.0",
+    "mocha": "^3.2.0",
+    "webpack-stream": "^3.2.0"
+  }
+}
